@@ -32,7 +32,8 @@ MCP Endpoint
 URL: http://your-pi-ip:8000
 Transport: streamable-http
 
-Available Tools
+```
+## Available Tools
 
 lcd_print(line1, line2)
 lcd_clear()
@@ -43,9 +44,10 @@ read_temperature()
 read_humidity()
 self_test()
 
-```
+
 ## Resources
 
+```
 thermostat://state
 thermostat://setpoint
 thermostat://temperature_f
@@ -54,10 +56,12 @@ thermostat://environment_safety
 leds://status
 buttons://status
 lcd://status
+```
 
 ## Project Structure
 
-```textpi-thermostat-mcp/
+```
+textpi-thermostat-mcp/
 ├── config.py
 ├── hardware.py
 ├── thermostat.py
