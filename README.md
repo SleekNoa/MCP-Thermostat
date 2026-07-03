@@ -35,6 +35,7 @@ Transport: streamable-http
 ```
 ## Available Tools
 
+```
 lcd_print(line1, line2)
 lcd_clear()
 set_state("off" | "heat" | "cool" | "safe")
@@ -43,6 +44,7 @@ decrement_setpoint()
 read_temperature()
 read_humidity()
 self_test()
+```
 
 
 ## Resources
