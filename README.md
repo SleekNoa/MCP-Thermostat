@@ -43,7 +43,8 @@ read_temperature()
 read_humidity()
 self_test()
 
-Resources
+```
+## Resources
 
 thermostat://state
 thermostat://setpoint
@@ -54,8 +55,9 @@ leds://status
 buttons://status
 lcd://status
 
-Project Structure
-textpi-thermostat-mcp/
+## Project Structure
+
+```textpi-thermostat-mcp/
 ├── config.py
 ├── hardware.py
 ├── thermostat.py
@@ -64,8 +66,9 @@ textpi-thermostat-mcp/
 ├── prompts.py
 ├── server.py
 └── requirements.txt
+```
 
-License
+## License
 MIT License
 Made with <3 for the MCP community.
 
@@ -84,3 +87,4 @@ git commit -m "feat: finalize MCP Thermostat server for FastMCP 3.4.2 + Streamab
 - Updated README with connection instructions for AnythingLLM, Claude, Cursor, etc.
 
 Tested with AnythingLLM and VS Code Copilot."
+```
