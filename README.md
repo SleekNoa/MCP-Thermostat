@@ -78,19 +78,3 @@ textpi-thermostat-mcp/
 MIT License
 Made with <3 for the MCP community.
 
----
-
-### 2. Recommended Commit Message
-
-```bash
-git commit -m "feat: finalize MCP Thermostat server for FastMCP 3.4.2 + Streamable HTTP
-
-- Updated server.py for FastMCP 3.4.2 compatibility
-- Switched to streamable-http transport (current MCP standard)
-- Improved LED fade behavior to match original thermostat
-- Enhanced LCD display logic with original quirks
-- Added proper shutdown handling and logging
-- Updated README with connection instructions for AnythingLLM, Claude, Cursor, etc.
-
-Tested with AnythingLLM and VS Code Copilot."
-```
