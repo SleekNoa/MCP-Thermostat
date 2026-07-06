@@ -1,0 +1,27 @@
+# MCP Thermostat System - Reliable Requirements (Tested Path)
+
+fastmcp>=0.1.5
+anyio>=4.0.0
+typing_extensions
+idna
+httpx
+starlette
+pydantic
+
+# Hardware
+gpiozero>=1.6.2
+lgpio>=0.2.0
+
+# Sensors & LCD
+adafruit-circuitpython-ahtx0>=1.0.0
+adafruit-circuitpython-charlcd>=3.0.0
+adafruit-blinka>=8.0.0
+adafruit-platformdetect
+
+# State Machine
+python-statemachine>=2.5.0
+
+# Extra utilities
+colorzero
+
+# How to run sudo /home/noahpi/pi-hardware-mcp/.venv/bin/python server.py
